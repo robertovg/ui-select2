@@ -86,7 +86,8 @@ angular.module('ui.select2', []).value('uiSelect2Config', {}).directive('uiSelec
             if (!current) {
               return;
             }
-            if (current === old) {
+            //This extra check make not to through render event if the current value is not yet stable
+            if (current === old || ( !current || !_.isArray(current)) ) {
               return;
             }
             controller.$render();

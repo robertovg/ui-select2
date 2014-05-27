@@ -8,10 +8,10 @@
   ],
   "description": "AngularUI - The companion suite for AngularJS",
   "version": "0.0.4",
-  "homepage": "http://angular-ui.github.com",
+  "homepage": "https://github.com/robertovg/ui-select2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/angular-ui/ui-select2.git"
+    "url": "git://github.com/robertovg/ui-select2.git"
   },
   "engines": {
     "node": ">= 0.8.4"
